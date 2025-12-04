@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AnimePlus — Galería</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MOUSE GLOW -->
+  <div id="mouse-glow" class="mouse-glow"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+  <!-- LOGO con el mismo id que usa el JS -->
+  <div class="logo" id="homeLink">
+    <span class="anime">Anime</span><span class="plus">Plus</span>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#home" id="navInicio">Inicio</a></li>
+    <li><a href="#animes">Animes</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+
+  <div class="search-wrap">
+    <input id="searchInput" placeholder="Buscar anime... (ej. Naruto)" autocomplete="off" />
+  </div>
+</nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero">
+    <h1>Top Animes</h1>
+    <p class="subtitle">
+  </header>
+
+  <!-- MAIN GRID -->
+  <main id="animes" class="container">
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <!-- SEARCH RESULTS (same grid style) -->
+  <section id="search-results" class="grid" style="display:none;"></section>
+
+  <!-- ANIME INFO (single-page internal view) -->
+  <section id="animeInfo" class="player-page hidden">
+    <button id="backBtn" class="back-btn">← Volver</button>
+
+    <div class="anime-header">
+      <img id="animeBanner" src="" alt="Banner" class="anime-banner">
+      <div class="anime-meta">
+        <h2 id="animeTitle"></h2>
+        <p id="animeDescription"></p>
+        <div class="meta-tags" id="animeTags"></div>
+      </div>
+    </div>
+
+    <h3>Capítulos</h3>
+<div id="episodeList" class="episodes"></div>
+
+<div id="playerWrapper" class="player-wrapper hidden">
+  <h4 id="playerTitle"></h4>
+  <div class="player-area" id="playerArea"></div>
+
+  
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contacto" class="footer">
+
+<div>© 2025 AnimePlus — Creado por Juandeli los mejores animes </div>
+  </footer>
+<div class="social">
+  <a href="https://www.instagram.com/gyms_05/" class="ig">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="https://www.instagram.com/gyms_05/" />
+  </a>
+  <a href="tel:+"8292126484 class="phone">
+    <img src="https://www.shutterstock.com/image-vector/purple-phone-handset-blue-signal-260nw-2654451587.jpg" alt="Teléfono" />
+  </a>
+</div>
+  <script src="script.js" ></script>
+</body>
+</html>
