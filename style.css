@@ -382,6 +382,9 @@ html,body{height:100%;font-family:'Poppins',sans-serif;background:linear-gradien
   .anime-card {
     width: 80% !important;
     max-width: 260px !
+
+
+  }
 .nav-home-logo {
   display: flex;
   align-items: center;
@@ -400,5 +403,3 @@ html,body{height:100%;font-family:'Poppins',sans-serif;background:linear-gradien
   transform: scale(1.15);
   filter: drop-shadow(0 0 8px #6200ff);
 }
-
-
