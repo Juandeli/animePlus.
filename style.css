@@ -392,15 +392,13 @@ html,body{height:100%;font-family:'Poppins',sans-serif;background:linear-gradien
   width: 24px;
   height: 24px;
   object-fit: contain;
-  filter: drop-shadow(0 0 4px #ff0000);
+  filter: drop-shadow(0 0 4px #8c00ff);
   transition: 0.2s ease;
 }
 
 .home-icon:hover {
   transform: scale(1.15);
-  filter: drop-shadow(0 0 8px #ff0000);
+  filter: drop-shadow(0 0 8px #6200ff);
 }
-
-
 
 
