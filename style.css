@@ -298,4 +298,27 @@ html,body{height:100%;font-family:'Poppins',sans-serif;background:linear-gradien
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
   }
 }
+/* 📺 Ajustes para televisiones y pantallas grandes */
+@media (min-width: 1600px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  }
+
+  .anime-card {
+    max-width: 300px !important;
+  }
+}
+
+/* 📺 TVs más grandes aún */
+@media (min-width: 2200px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) !important;
+  }
+
+  .anime-card {
+    max-width: 350px !important;
+  }
+}
+
+
 
