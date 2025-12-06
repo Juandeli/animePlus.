@@ -351,6 +351,37 @@ html,body{height:100%;font-family:'Poppins',sans-serif;background:linear-gradien
     width: 80% !important;
     max-width: 260px !
 
+/* ============ FIX PARA TELEFONOS ============ */
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 14px !important;
+  }
+
+  .anime-card {
+    max-width: 180px !important;
+  }
+
+  .anime-card img {
+    height: 220px !important;
+  }
+
+  .hero h1 {
+    font-size: 28px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 14px !important;
+    justify-items: center;
+  }
+
+  .anime-card {
+    width: 80% !important;
+    max-width: 260px !
 
 
 
