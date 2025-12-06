@@ -146,9 +146,9 @@ function openAnime(id) {
     const a = document.createElement('a');
     a.href = "#";
     a.textContent = `${ep.title}`;
-    a.addEventListener('click', (e) => {
-      e.preventDefault();
-      loadEpisodeWithNavigation(data.id, idx);
+   a.addEventListener('click', (e) => {
+  e.preventDefault();
+  loadEpisodeWithNavigation(data.id, idx);
     });
     episodeList.appendChild(a);
   });
@@ -263,3 +263,4 @@ homeLink.addEventListener('click', () => {
   document.getElementById('search-results').style.display = 'none';
   document.getElementById('home').scrollIntoView({behavior:'smooth'});
 });
+
