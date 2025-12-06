@@ -382,6 +382,25 @@ html,body{height:100%;font-family:'Poppins',sans-serif;background:linear-gradien
   .anime-card {
     width: 80% !important;
     max-width: 260px !
+.nav-home-logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.home-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 4px #ff0000);
+  transition: 0.2s ease;
+}
+
+.home-icon:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 0 8px #ff0000);
+}
+
 
 
 
